@@ -5,7 +5,7 @@ ortalama = (vize * 0.4) + (final * 0.6)
 if final<40 or ortalama<50:
     print("kullanıcı kaldı")
 
-if vize==final*2:
+elif vize==final*2:
     print("kullanıcı kaldı")
 else:
     print("kullanıcı geçti")
